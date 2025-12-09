@@ -1,0 +1,27 @@
+{
+    "KPlugin": {
+        "Id": "com.github.k-donn.spotify-controller",
+        "Name": "Spotify Lyrics",
+        "Description": "Lyrics on Taskbar",
+        "Version": "2.0",
+        "Authors": [
+            {
+                "Name": "Lorean",
+                "Email": ""
+            },
+            {
+                "Name": "LabyStudio",
+                "Email": ""
+            }
+        ],
+        "Category": "Multimedia",
+        "Icon": "spotify",
+        "License": "GPL-3.0+",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ]
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
